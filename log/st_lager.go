@@ -2,7 +2,7 @@ package log
 
 import (
 	"fmt"
-	"github.com/LianJianTech/ss-go-common/log/lager"
+	"github.com/web3ssc/ss-go-common/log/lager"
 	"io"
 	"log"
 	"os"

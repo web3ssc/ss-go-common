@@ -2,7 +2,7 @@ package log
 
 import (
 	"encoding/json"
-	"github.com/LianJianTech/ss-go-common/log/lager"
+	"github.com/web3ssc/ss-go-common/log/lager"
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"log"

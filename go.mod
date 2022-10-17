@@ -1,6 +1,6 @@
-module github.com/LianJianTech/ss-go-common
+module github.com/web3ssc/ss-go-common
 
-go 1.17
+go 1.18
 
 require (
 	github.com/valyala/fasthttp v1.37.0

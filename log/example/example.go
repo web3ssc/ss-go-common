@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/LianJianTech/ss-go-common/log"
-	"github.com/LianJianTech/ss-go-common/log/lager"
+	"github.com/web3ssc/ss-go-common/log"
+	"github.com/web3ssc/ss-go-common/log/lager"
 )
 
 func main() {
