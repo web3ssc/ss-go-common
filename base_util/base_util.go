@@ -253,9 +253,10 @@ func GenID() (string, error) {
 		log.Errorf(err, "GenID snowflake.NewNode error")
 		return "", err
 	}
+	ranStr1 := RandString(8)
 	id := fmt.Sprintf(`%v`, node.Generate().Int64())
-	ranStr := RandString(8)
-	id = id + ranStr
+	ranStr2 := RandString(8)
+	id = ranStr1 + id + ranStr2
 	return id, nil
 }
 
